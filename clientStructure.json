@@ -1,0 +1,32 @@
+[{
+  "name": "showName",
+  "type": "main/section",
+  "category": "movie/tv/anime/cartoon/manga/comics/books/game",
+  "status": "complete/incomplete",
+  "completePercentage": "calculated numeric value here",
+  "watchedPercentage": "calculated numeric value here",
+  "sectionInfo": [{
+    "name": "showSeasonNameOrNumber",
+    "type": "main/section",
+    "category": "movie/tv/anime/cartoon/manga/comics/books/game",
+    "completePercentage": "calculated numeric value here",
+    "watchedPercentage": "calculated numeric value here",
+    "sectionInfo": [],
+    "mainInfo": {
+      "released": "number of eps released",
+      "watched": "number of eps released",
+      "total": "number of eps released",
+      "current": "number currently running",
+      "updateState": "daily/weekly/monthly/yearly/no-schedule",
+      "dateReference": {
+      	"reference": "next/last",
+      	"date":"date comes here"
+      },
+      "pending": [{
+      	"episodeNo": "number",
+      	"date": "date here"
+      }]
+    }
+  }], //if section
+  "mainInfo": {}, //if main
+}]
